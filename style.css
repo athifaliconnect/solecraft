@@ -1,0 +1,239 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.header{
+    background-color:beige;
+    text-align: left;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.bdy{
+    background-color: beige;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction:row;
+    padding-top: 5%;
+
+    
+}
+
+.header nav{
+    display: flex;
+    float: left;
+    margin: 0%;
+    width: 100%;
+    
+}
+.header nav h1{
+    padding-left: 5%;
+}
+.header nav h1:last-child {
+    margin-left: auto;
+    margin-right: 5%;
+}
+.bdy image1{
+    width: 50%;
+}
+.bdy image2{
+    width: 50%;
+}
+.bdy image1 figure{
+    position: relative;
+    text-align: center;
+}
+.bdy .image1 figure img{
+    width: 70vh;
+    height:auto;
+    margin-left: 20%;
+    margin-top: 20%;
+    border-radius: 20%;
+   
+}
+.bdy .image1 figcaption{
+    position: absolute;
+    top:50%;
+    
+    font-size: 9vh;
+    text-align: center;
+    background-color:beige;
+    color:darkgrey;
+}
+
+.bdy .image2 figure{
+    position: relative;
+    text-align: center;
+    margin-left: 30%;
+}
+.bdy .image2 figure img{
+    border-radius: 20%;
+    width: 70vh;
+    height: auto;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.bdy .image2 figcaption{
+    position: absolute;
+    font-size: 9vh;
+    top: 70%;
+    left: 20%;
+    background-color: beige;
+    color:darkgray;
+    text-wrap: nowrap;
+    text-align: center;
+    
+}
+.bdy2{
+    background-color: burlywood;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+.bdy2 figure{
+    width: 30%;
+    height: auto;
+    background-color:white;
+    text-align: center;
+    overflow: hidden;
+    justify-content: space-between;
+    margin-top: auto;
+}
+.bdy2 figure img{
+    max-width: 90%;
+    padding-top: 10%;
+}
+.bdy2 figcaption{
+    padding-top: auto;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+ .bdy2 figure button{
+    width: 100%;
+    background-color: cadetblue;
+    color: aliceblue;
+    height: 10vh;
+    font-size: x-large;
+    padding-top: auto;
+
+ }
+ .bdy3
+ {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    background-color: bisque;
+    
+
+
+ }
+ .bdy3 .details{
+    margin: 3%;
+    width: 50%;
+   
+    text-align: center;
+
+ }
+ .bdy3 .links{
+    margin: 3%;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: bolder;
+    
+ }
+ .bdy3 .details{
+    font-size: larger;
+    font-weight: bolder;
+    
+ }
+.bdy3 .links label{
+    display: flex;
+    align-content: center;
+    
+}
+@media only screen and (max-width: 767px){
+    body{
+        margin-right: 0%;
+        padding-right: 0%;
+        width: 100%;
+    }
+ 
+   
+    .bdy .image1 figcaption{
+    position: absolute;
+    top:25%;
+    margin: auto;
+    font-size: 5vh;
+    text-align: center;
+    background-color:beige;
+    color:darkgrey;
+      }
+    
+    .bdy .image1 figure{
+        width:70%;
+        margin-right: auto;
+    }
+
+    .bdy .image1 figure img {
+        width: 100%;
+        
+    }
+    .bdy .image2{
+        display: none;
+    }
+
+    .bdy {
+
+        height: auto;
+        flex-direction: column;
+    }
+
+    .bdy2 {
+        flex-direction: column;
+        height: auto;
+    }
+  
+    .bdy2 figure{
+        margin-top: 2%;
+        margin-left: 5%;
+        width:90%;
+        overflow: scroll;
+        background-color:ivory;
+    }
+    .bdy .image2 figure img{
+        margin-left: 5%;
+        width: 90%;
+        
+    }
+    .header nav {
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+      }
+    
+      .header nav h1 {
+        padding: 5px; /* Adjust as needed */
+        font-size: 14px; /* Adjust as needed */
+      }
+    
+      .header nav h3:last-child {
+        margin-left: 0;
+        margin-right: 0;
+      }
+}
+
